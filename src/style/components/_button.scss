@@ -1,0 +1,42 @@
+@use "../base/variables";
+@use "../base/mixins";
+
+.btn{
+  color: white;
+  background-color: variables.$secondary-color;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  font-size: medium;
+  margin: 5px;
+  position: relative;
+
+  &:hover{
+    transition: transform 200ms ease-in-out;
+    transform: scale(1.02);
+    background-color: variables.$primary-color;
+    cursor: pointer;
+  }
+
+  &__container{
+    display: flex;
+    flex-direction: row;
+  }  
+
+
+  &__arrow{
+    background-color: white;
+    color: variables.$primary-color;
+    border-radius: 50px;
+    margin-left: 15px;
+    padding: 3px 5px 3px 5px;
+    @include mixins.mobile {
+      display: none;
+    }
+  }
+
+  &__link{
+    text-decoration: none;
+    color: white;
+  }
+}
+

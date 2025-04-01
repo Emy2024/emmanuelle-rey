@@ -1,0 +1,33 @@
+@use '../base/variables';
+@use "../base/mixins";
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15%;
+    position: absolute;
+    right: 34%;
+    bottom: 4%;
+    @include mixins.mobile {
+        width: 60%;
+        right: 19%;
+        bottom: -23%;
+    }
+}
+
+.socialMedia__container{
+    margin-right: 37px;
+}
+
+.socialMedia__containerLogo{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    &:hover{
+        filter: invert(40%) sepia(76%) saturate(482%) hue-rotate(352deg) brightness(93%) contrast(94%);
+        cursor: pointer;
+    }
+}
+

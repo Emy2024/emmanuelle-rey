@@ -1,0 +1,44 @@
+@use '../../style/base/variables';
+@use "../base/mixins";
+
+.mentionsLegales{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  padding: 15px 120px 35px 120px;
+  @include mixins.mobile {
+    padding: 15px
+}
+
+  &__introduction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__title{
+    text-align: center;
+  }
+
+  &__content{
+    line-height: 25px;
+  }
+
+  &__subtitle{
+    color: variables.$primary-color;
+    margin: 15px 0 15px 0;
+  }
+
+  &__subtitleConditionsGen{
+    color: variables.$secondary-color;
+    font-size: 28px;
+    margin: 25px 0 15px 0;
+  }
+
+  &__link{
+    color: variables.$primary-color;
+  }
+
+      
+}

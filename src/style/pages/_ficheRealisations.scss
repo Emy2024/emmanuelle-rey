@@ -1,0 +1,126 @@
+@use "../base/variables";
+@use "../base/mixins";
+
+.ficheRea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  @include mixins.mobile {
+    padding: 10px 10px 25px 10px;
+    width: 95%;
+  }
+
+  &__introduction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__introduction > h1{
+    align-items: center;
+    text-align: center;
+  }
+
+  &__introductionText{
+    font-size: 15px;
+    line-height: 25px;
+    color: variables.$secondary-color;
+    text-transform: uppercase;
+    padding: 35px 120px 0px 120px;
+    position: relative !important;
+    @include mixins.mobile {
+      padding: 35px 15px 25px 15px;
+    }
+  }
+
+}
+
+
+.ficheRea__introductionTextAndButton{
+  position: relative;
+}
+
+.ficheRea__button{
+  position: absolute;
+  top: 27%;
+  right: 17%;
+  @include mixins.mobile {
+    display: flex;
+    flex-direction: row;
+    top: 90%;
+    right: 32%;
+  }
+}
+
+.ficheRea__introductionApercu{
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+  text-transform: uppercase;
+  padding: 35px 120px 25px 120px;
+  position: relative !important;
+  @include mixins.mobile {
+    padding: 25px 15px 25px 15px;
+  }
+}
+
+.ficheRea__Apercu{
+  background-color: variables.$secondary-color;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ficheRea__photosContainer{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr; 
+  padding: 0px 120px 45px 120px;
+  @include mixins.mobile {
+    padding: 0px 15px 35px 15px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.ficheRea__photo{
+  width: 100%;
+}
+
+
+.ficheRea__autresProjets{
+  display: flex;
+  flex-direction: column;
+  padding: 35px 120px 25px 120px;
+  color: variables.$secondary-color;
+  background-color: #e4edee;
+  @include mixins.mobile {
+    padding: 25px 15px 5px 15px;
+
+  }
+}
+
+.ficheRea__autresProjetsContainer{
+  display: flex;
+}
+
+.ficheRea__title{
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 5px 0px 15px 0px;
+}
+
+.ficheRea__ul{
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  gap: 11px;
+  width: 100%;
+  @include mixins.mobile {
+      display: flex;
+      flex-direction: column;
+  }
+}
+

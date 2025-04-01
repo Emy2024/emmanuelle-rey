@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1",
+    "diplome": "Développeuse web Bac+2 (en cours)",
+    "ecole": "OpenClassrooms",
+    "duree": "Nov. 2024 - Mai 2025",
+    "description": [
+      "Construire un site web responsive et dynamique",
+      "Créer des API et des bases de données",  
+      "Optimiser les performances et réaliser la maintenance de sites web déjà existants",
+      "Gérer un projet web de A à Z"
+    ],
+    "lieu": "En distanciel"
+  },
+
+  {
+    "id": "2",
+    "diplome": "Autoformation",
+    "ecole": "OpenClassrooms, Udemy, Grafikart",
+    "duree": "Fév. 2024 - Nov. 2024",
+    "description": [
+      "OpenClassrooms - Passez au Full Stack avec Node.js, Express et MongoDB",  
+      "OpenClassrooms - Créez une application React complète",
+      "OpenClassrooms - Débutez avec React",
+      "OpenClassrooms - Concevez un site avec PHP et MySql",
+      "OpenClassrooms - Augmentez votre trafic grâce au référencement naturel (SEO)",
+      "OpenClassrooms - Optimisez le référencement de votre site (SEO) en améliorant ses performances techniques",
+      "Leaflet Tips and Tricks par Malcolm Maclean",
+      "OpenClassrooms - Gérez du code avec Git et GiHub",
+      "OpenClassrooms - Corrigez vos bugs et trouvez une solution à vos problèmes de code",
+      "OpenClassrooms - Créez une maquette avec Figma",
+      "OpenClassrooms - Simplifiez-vous le CSS avec Sass",
+      "OpenClassrooms - Créez des animations CSS modernes",
+      "OpenClassrooms - Concevez un contenu web accessible",
+      "OpenClassrooms - Apprenez à utiliser la ligne de commande dans un terminal",
+      "OpenClassrooms - Apprenez à programmer avec JavaScript",
+      "OpenClassrooms - Créez des pages web dynamiques avec JavaScript",
+      "OpenClassrooms - Adoptez les API REST pour vos projets web",
+      "OpenClassrooms - Créez votre premier site avec Wordpress 6",
+      "Udemy - The Complete Web Developer in 2018: Zero to Mastery by A. Neagoie"
+    ],
+    "lieu": "En distanciel"
+  },
+
+  {
+    "id": "3",
+    "diplome": "Master Technologies de l'Information & de la Communication",
+    "ecole": "ISTHIA - Institut Supérieur Hôtellerie Tourisme Alimentation",
+    "duree": "Sept. 2019 - Sept. 2021",
+    "description": [
+      "Formation réalisée dans le cadre d'une alternance",
+      "Valorisation des données issues de l’OpenData",
+      "Initiation web : HTML, CSS, jQuery, Chart.js, ApexCharts",  
+      "Initiation QGIS"
+    ],
+    "lieu": "Foix, Ariège"
+  },
+  {
+    "id": "4",
+    "diplome": "BTS Assistant de Manager",
+    "ecole": "Lycée privé St Vincent de Paul",
+    "duree": "Sept. 2009 - Sept. 2011",
+    "description": [
+      "Major de l'Académie de Montpellier 2011"
+    ],
+    "lieu": "Nîmes, Gard"
+  },
+  {
+    "id": "5",
+    "diplome": "Baccalauréat Economique et Social",
+    "ecole": "Lycée privé St Vincent de Paul",
+    "duree": "Juin 2009",
+    "description": [
+      "Option Art - Mention Bien"
+    ],
+    "lieu": "Nîmes, Gard"
+  }
+]

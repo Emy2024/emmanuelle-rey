@@ -1,0 +1,87 @@
+@use "../../style/base/variables";
+@use "../base/mixins";
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    @include mixins.mobile {
+        flex-direction: column;
+    }
+}
+
+.skills__left {
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    position: absolute;
+    left: -143px;
+    top: 0;
+    z-index: 999;
+    @include mixins.mobile {
+        display: none;
+    }
+}
+
+
+.skills__leftCover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: variables.$primary-color-transparent-for-pictures;
+}
+
+
+.skills__leftCoverText{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.technicalSkills {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 756px;
+    transition: transform;
+    padding: 35px 0 35px 35px;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    @include mixins.mobile {
+        width: 100%;
+        min-height: 960px;
+        padding: 35px 10px 5px 10px;
+    }
+        &:hover{
+            transition: box-shadow .3s ease-in-out;
+        }
+        &__Title {
+            color: variables.$secondary-color;
+            margin-bottom: 10px;
+        }
+        &__Cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 250px;
+            padding-left: 35px;
+            align-items: center;
+            @include mixins.mobile {
+                height: 200px;
+                width: 120%;
+                padding-left: 0;
+            }
+        }
+
+}
+

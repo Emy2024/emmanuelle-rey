@@ -1,0 +1,134 @@
+@use "../base/variables";
+@use "../base/mixins";
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    height: 348px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    @include mixins.mobile {
+        height: 395px;
+    }
+    &:after{
+        content: "";
+        background-color: variables.$primary_color;
+        height: 5px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    &:hover {
+        cursor: pointer;   
+        .cardContent{
+        transition: transform 200ms ease-in-out;
+        transform: scale(1.02);
+        }
+        .card__imageContainer{
+            transition: transform 200ms ease-in-out;
+            transform: scale(1.02);
+        } 
+        .cardContent__arrow {
+            &::before {
+                content: "Découvrir la page";
+                font-size: 8px;
+                text-transform: uppercase;
+                margin: 5px;
+                font-weight: 600;
+                transition: all 0.5s;
+            }
+        }
+    } 
+
+    &__arrow{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 15px;
+        padding: 10px;
+        background-color: variables.$primary_color;
+        color: white;
+        transition: 0.5s;
+        margin-bottom: 5px;
+    }
+
+    &__imageContainer{
+        overflow: hidden;
+        width: 56%;
+        transition: transform 200ms ease-in-out;
+        transform: scale(1);
+    }
+
+    &__image {
+        height: 348px;
+        background-position: 50%;
+        width: 100%;
+        object-fit: cover;
+        @include mixins.mobile {
+            height: 395px;
+        }
+    }
+}
+
+.cardContent{
+    width: 50%;
+    align-self: center;
+    padding: 30px;
+    position: relative;
+
+    &__date{
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        text-decoration: none;
+        color: variables.$secondary-color;
+    }
+
+    &__title{
+        font-weight: 600;
+        text-decoration: none;
+        color: variables.$secondary-color;
+     }
+
+     
+     &__description{
+        font-size: 13px !important;
+        text-decoration: none;
+        color: variables.$secondary-color;
+        line-height: 28px;
+    }
+
+    &__tagname{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        @include mixins.mobile {
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+    }
+
+    &__tags {
+        background-color: variables.$primary_color;
+        border-radius: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        font-size: 10px;
+        font-weight: 600;
+        display: flex;
+    }
+
+}
+
+
+
+

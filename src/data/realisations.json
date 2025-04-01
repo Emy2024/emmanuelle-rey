@@ -1,0 +1,88 @@
+[
+  {
+    "id": "1",
+    "nomProjet": "KASA",
+    "concept": "KASA est un site web de location d'appartements entre particuliers.",
+    "mission": "Ce projet a été développé de zéro afin de maîtriser les bases de REACT. Le projet a impliqué la création de l'ensemble des composants, l'utilisation de React rooters, l'utilisation des hooks (useStates, useParams, NavLink). Ce projet responsive suit les maquettes Figma d'un designer.",
+    "mission_court":"Ce projet a été développé de zéro afin de maîtriser les bases de REACT.",
+    "technologie": [
+      "REACT 19.0.0",
+      "DART SASS"
+    ],
+    "dateLivraison": "Mars 2025",
+    "github": "https://github.com/Emy2024/OCR_projet5/",
+    "live": "xxxxxxxxxxx",
+    "coverHome": "/Kasa/kasa1.webp",
+    "coverRealisations": "/Kasa/kasaCover.webp",
+    "images": [
+      "/Kasa/kasa1.webp",
+      "/Kasa/kasa2.webp",
+      "/Kasa/kasa3.webp"
+    ]
+  },
+  {
+    "id": "2",
+    "nomProjet": "MON VIEUX GRIMOIRE",
+    "concept": "Mon Vieux Grimoire est une petite chaîne de librairies dont l'objectif est de lancer un site de référencement et de notation de livres.",
+    "mission": "Le front-end du site est réalisé en React. L'objectif de ce projet a été d'élaborer le back-end du site avec la connexion à l'API RESTfull. Le projet possède un système d'authentification ainsi qu'une gestion des fichiers utilisateurs afin de publier, supprimer ou modifier des livres. Il est en outre conforme aux bonnes prratiques du Green Code.",
+    "mission_court": "L'objectif de ce projet a été d'élaborer le back-end du site avec la connexion à l'API RESTfull.",
+    "technologie": [
+      "MongoDB", 
+      "Mongoose" 
+    ],
+    "dateLivraison": "Avril 2025",
+    "github": "https://github.com/Emy2024/OCR_projet6/",
+    "live": "xxxxxxxxxxx",
+    "coverHome": "/MonVieuxGrimoire/mon_vieux_grimoire_1.webp",
+    "coverRealisations": "/MonVieuxGrimoire/mon_vieux_grimoire_cover.webp",
+    "images": [
+      "/MonVieuxGrimoire/mon_vieux_grimoire_1.webp",
+      "/MonVieuxGrimoire/mon_vieux_grimoire_2.webp",
+      "/MonVieuxGrimoire/mon_vieux_grimoire_3.webp"
+    ]
+  },
+  {
+    "id": "3",
+    "nomProjet": "SOPHIE BLUEL ARCHITECTE",
+    "concept": "Sophie Bluel est architecte d’intérieur : son site est une vitrine auprès de ses clients et potentiels clients.",
+    "mission": "A partir du backend pré-existant, ce projet a pour objectif l'élaboration du FrontEnd en utilisant du JavaScript vanilla. L'idée est de pouvoir récupérer dynamiquement les travaux via une API. L'architecte doit également être en mesure de se connecter sur le site en mode Administrateur afin de pouvoir en ajouter ou en supprimer. A noter : dans le cadre de ce projet, le site n'est pas responsive.",
+    "mission_court":"A partir du backend pré-existant, ce projet avait pour objectif l'élaboration du FrontEnd en JavaScript vanilla.",
+    "technologie": [
+      "JavaScript",
+      "Swagger"
+    ],
+    "dateLivraison": "Février 2025",
+    "github": "https://github.com/Emy2024/OCR_projet3",
+    "live": "xxxxxxxxxxx",
+    "coverHome": "/SophieBluel/sophie_bluel_1.webp",
+    "coverRealisations": "/SophieBluel/sophie_bluelCover.webp",
+    "images": [
+      "/SophieBluel/sophie_bluel_1.webp",
+      "/SophieBluel/sophie_bluel_2.webp",
+      "/SophieBluel/sophie_bluel_3.webp"
+    ]
+  },
+  {
+    "id": "4",
+    "nomProjet": "NINA CARDUCCI PHOTOGRAPHE",
+    "concept": "Nina Carducci est photographe et possède un portfolio en ligne avec de nombreuses photographies illustrant son travail.",
+    "mission": "A partir d'un site déjà existant, l'objectif a été d'optimiser le site en termes de SEO (desktop uniquement) et d'accessibilité. Ce projet a impliqué notamment la conversion des images en un format webP adapté, l'ajout de balises alternatives, l'ajout de méta data enrichies, l'ajout de liens CDN et la modification de certains contrastes. Un débugg du site a également eu lieu sur la partie jQuery.",
+    "mission_court":  "A partir d'un site déjà existant, l'objectif a été d'optimiser le site en termes de SEO et d'accessibilité.",
+    "technologie": [
+      "HTML", 
+      "CSS", 
+      "Ligthouse", 
+      "Wave"
+    ],
+    "dateLivraison": "Janvier 2025",
+    "github": "https://github.com/Emy2024/OCR_projet4/",
+    "live": "https://emy2024.github.io/OCR_projet4/",
+    "coverHome": "/NinaCarducci/nina_carducci_1.webp",
+    "coverRealisations": "/NinaCarducci/nina_carducciCover.webp",
+    "images": [
+      "/NinaCarducci/nina_carducci_1.webp",
+      "/NinaCarducci/nina_carducci_2.webp",
+      "/NinaCarducci/nina_carducci_3.webp"
+    ]
+  }
+]

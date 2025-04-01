@@ -1,0 +1,66 @@
+[
+  {
+    "Text": "HTML 5",
+    "Image": "html5.svg"
+  },
+  {
+    "Text": "CSS",
+    "Image": "css3.svg"
+  },
+  {
+    "Text": "SASS",
+    "Image": "sass.svg"
+  },
+  {
+    "Text": "JavaScript",
+    "Image": "javascript.svg"
+  },
+  {
+    "Text": "React.js",
+    "Image": "react.svg"
+  },
+  {
+    "Text": "Node.js",
+    "Image": "node-js.svg"
+  },
+  {
+    "Text": "ApexChart / Chart.js",
+    "Image": "chartJSapexchart.svg"
+  },
+    {
+    "Text": "Leaflet.js",
+    "Image": "Leaflet.svg"
+  },
+  {
+    "Text": "Bootstrap",
+    "Image": "bootstrap.svg"
+  },
+  {
+    "Text": "Wordpress",
+    "Image": "wordpress.svg"
+  },
+  {
+    "Text": "Git / Github",
+    "Image": "github.svg"
+  },
+  {
+    "Text": "Illustrator",
+    "Image": "illustrator.svg"
+  },
+  {
+    "Text": "InDesign",
+    "Image": "indesign.svg"
+  },
+  {
+    "Text": "Photoshop",
+    "Image": "photoshop.svg"
+  },
+  {
+    "Text": "Premiere Pro",
+    "Image": "premiere.svg"
+  },
+  {
+    "Text": "SEO",
+    "Image": "seo.svg"
+  }
+]

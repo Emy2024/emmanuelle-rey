@@ -1,0 +1,58 @@
+// breakpoints 
+@mixin mobile {
+    @media (max-width: 480px) {
+      @content;
+    }
+}
+  
+@mixin tablet {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+  
+
+@mixin vibrate-slow() {
+    animation: vibrate-slow 3s linear 0s infinite normal none;
+
+    @keyframes vibrate-slow {
+        0% {
+            transform: translate(0);
+        }
+
+        20% {
+            transform: translate(2px, -2px);
+        }
+
+        40%{
+            transform: translate(2px, 2px);
+        }
+
+        60%{
+            transform: translate(-2px, 2px);
+        }
+
+        80%{
+            transform: translate(-2px, -2px);
+        }
+
+        100% {
+            transform: translate(0);
+        }
+    }
+}
+
+@mixin slide-in() {
+    animation: slide-in 200ms linear 0s 1 normal none;
+    @keyframes slide-in { 
+    100% {
+        transform: rotateZ(60deg) translate(1em, -9em);
+    }
+    }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "poste": "Chargée de communication / marketing",
+    "typeContrat": "Stage",
+    "duree": "2010",
+    "entreprise": "Alstom Grid T&D",
+    "web": "https://www.alstom.com/fr",
+    "lieu": "Stafford, Royaume-Uni",
+    "src": "/ExperiencePro/alstom.webp"
+  },
+
+  {
+    "id": "2",
+    "poste": "Graphiste",
+    "typeContrat": "CDI",
+    "duree": "2011 - 2012",
+    "entreprise": "Roland Berger Strategy Consultants",
+    "web": "https://www.rolandberger.com/fr/Locations/France/News/",
+    "lieu": "Paris, France",
+    "src": "/ExperiencePro/rolandBerger.webp"
+  },
+
+  {
+    "id": "3",
+    "poste": "Coordinatrice communication / évènementiel",
+    "typeContrat": "CDI",
+    "duree": "2013 - 2019",
+    "entreprise": "International Confederation of European Beet\nGrowers (CIBE)",
+    "web": "https://www.cibe-europe.eu/",
+    "lieu": "Bruxelles, Belgique",
+    "src": "/ExperiencePro/cibe.webp"
+  },
+
+  {
+    "id": "4",
+    "poste": "Chargée de communication",
+    "typeContrat": "Alternance",
+    "duree": "2020 - 2021",
+    "entreprise": "Syndicat Mixte d’Aménagement des Rivières du Val\nd’Ariège",
+    "web": "https://www.symarvalariege.fr/",
+    "lieu": "Arignac, Ariège",
+    "src": "/ExperiencePro/symar.webp"
+  },
+
+  {
+    "id": "5",
+    "poste": "Chargée de communication",
+    "typeContrat": "CDI",
+    "duree": "2021 - 2024",
+    "entreprise": "Agence de Développement Touristique Ariège Pyrénées",
+    "web": "https://www.ariegepyrenees.com/",
+    "lieu": "Foix, Ariège",
+    "src": "/ExperiencePro/adt.webp"
+  }
+
+]

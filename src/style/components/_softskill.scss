@@ -1,0 +1,28 @@
+@use '../base/variables';
+@use "../base/mixins";
+
+.softSkills__ul{
+    padding: 0;
+    @include mixins.mobile {
+        text-align: center;
+    }
+}
+.softSkills__li{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    background-color: variables.$primary-color;
+    color: white;
+    font-size: smaller;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    padding: 19px;
+    width: auto;
+    border-radius: 5px;
+    @include mixins.mobile {
+        padding: 12px;
+        margin-right: 10px;
+    }
+}
+

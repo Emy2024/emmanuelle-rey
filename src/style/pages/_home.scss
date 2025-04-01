@@ -1,0 +1,172 @@
+@use "../base/variables";
+@use "../base/mixins";
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    @include mixins.mobile {
+        padding: 0 10px 0 10px;
+        height: 56vh;
+    }
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    @include mixins.mobile {
+        padding-left: 5px;
+        height: 43vh;
+    }
+}
+
+.mainContent__image{
+  display: flex;
+  position: absolute;
+  top: 2%;
+  right: -29%;
+  z-index: -1;
+  width: 81%;
+    @include mixins.mobile {
+        width: 214%;
+        padding-left: 0;
+        padding-right: 0;
+        order:2;
+        right: 0%;
+        top: 7%;
+        left: -37%;
+    }
+}
+
+.image{
+    width: 80%;   
+    @include mixins.mobile {
+       width: 100%;
+    }
+}
+
+.mainContent__cover{
+    position: absolute;
+    border-top-right-radius: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: variables.$primary-color-transparent-for-pictures;
+}
+
+.mainContent__h1{
+    @include mixins.mobile {
+        color: white;
+    }
+}
+
+.mainContent__paragraph{
+    line-height: 30px;
+    margin-right: 10px;
+    @include mixins.mobile {
+        color: white;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+.mainContent__text{
+    width: 40%;
+    @include mixins.mobile {
+        width: 95%;
+        order:1;
+    }
+} 
+
+.realisations {
+    background-color: variables.$secondary-color;
+    height: auto;
+    padding: 15px 120px 35px 120px;
+    @include mixins.mobile {
+        padding: 10px 10px 25px 10px;
+    }
+}
+
+.realisations__title {
+    color: white;
+    @include mixins.mobile {
+        padding-top: 12px;
+    }
+}
+
+.realisations__cardsFlex {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 21px;
+    width: 100%;
+    height: auto;
+    @include mixins.mobile{
+        margin-top: 19px;
+    }
+}
+
+
+.realisations__cardsLink{
+    text-decoration: none;
+}
+
+.realisations__ul{
+    padding-left: 0;
+    list-style: none;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    @include mixins.mobile {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+li:first-child {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    @include mixins.mobile {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+
+li:nth-child(4n) {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    margin-bottom: 5px;
+    @include mixins.mobile {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+
+.competences {
+    height: auto;
+    padding: 0;
+    @include mixins.mobile {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.enSavoirPlus {
+    height: 128px;
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    @include mixins.mobile {
+        padding: 10px 10px 25px 10px;
+    }
+}

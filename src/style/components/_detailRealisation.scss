@@ -1,0 +1,55 @@
+@use "../base/variables";
+@use "../base/mixins";
+
+.detailRea{
+  display: flex;
+  flex-direction: column;
+  background-color: variables.$secondary-color-transparent;
+  width: 60%;
+  margin: 15px 0 25px 120px;
+  @include mixins.mobile {
+    margin: 55px 5px 15px 5px;
+    width: 96%;
+  }
+
+  &__ligne{
+    display: flex;
+    flex-direction: row;
+    padding: 11px;
+    @include mixins.mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__subtitle{
+    width: 20%;
+    color: variables.$secondary-color;
+    text-align: start;
+    padding: 11px;
+    font-weight: 700;
+    margin-top: 5px;
+    @include mixins.mobile {
+      width: 90%;
+      padding-bottom: 10px;
+    }
+  }
+
+  &__table{
+    padding: 0 11px 0 11px;
+  }
+
+  &__description{
+    width: 80%;
+    padding: 11px;
+    color: #374848;
+    line-height: 30px;
+    font-size: 15px;
+    @include mixins.mobile {
+      width: 90%;
+      font-size: 15px;
+      text-align: start;
+      padding-top: 0px;
+    }
+  }
+
+}
