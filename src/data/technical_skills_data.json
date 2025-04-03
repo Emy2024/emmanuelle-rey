@@ -1,7 +1,7 @@
 [
   {
     "Text": "HTML 5",
-    "Image": "html5.svg"
+    "Image": "./html5.svg"
   },
   {
     "Text": "CSS",
