@@ -20,8 +20,8 @@ function MentionsLegales(){
 
               <h2 className="mentionsLegales__subtitle">Crédits</h2>
               <p>Visuels page d'accueil : Christin Hume - Unsplash ; Alesia Kazantceva - Unsplash </p>
-              <p>Visuel page A props : Emile Perron - Unsplash </p>
-              <p>Visuel page A props : Lauren Mancke - Unsplash </p>
+              <p>Visuel page A propos : Emile Perron - Unsplash </p>
+              <p>Visuel page Contact : Lauren Mancke - Unsplash </p>
 
               <h2 className="mentionsLegales__subtitleConditionsGen">Conditions Générales d'Utilisation (CGU)</h2>
 
