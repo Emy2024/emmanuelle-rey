@@ -12,12 +12,12 @@
     "dateLivraison": "Mars 2025",
     "github": "https://github.com/Emy2024/OCR_projet5/",
     "live": "xxxxxxxxxxx",
-    "coverHome": "/Kasa/kasa1.webp",
-    "coverRealisations": "/Kasa/kasaCover.webp",
+    "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/Kasa/kasa1.webp",
+    "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/Kasa/kasaCover.webp",
     "images": [
-      "/Kasa/kasa1.webp",
-      "/Kasa/kasa2.webp",
-      "/Kasa/kasa3.webp"
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/Kasa/kasa1.webp",
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/Kasa/kasa2.webp",
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/Kasa/kasa3.webp"
     ]
   },
   {
@@ -33,10 +33,10 @@
     "dateLivraison": "Avril 2025",
     "github": "https://github.com/Emy2024/OCR_projet6/",
     "live": "xxxxxxxxxxx",
-    "coverHome": "/MonVieuxGrimoire/mon_vieux_grimoire_1.webp",
-    "coverRealisations": "/MonVieuxGrimoire/mon_vieux_grimoire_cover.webp",
+    "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/MonVieuxGrimoire/mon_vieux_grimoire_1.webp",
+    "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/MonVieuxGrimoire/mon_vieux_grimoire_cover.webp",
     "images": [
-      "/MonVieuxGrimoire/mon_vieux_grimoire_1.webp",
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/MonVieuxGrimoire/mon_vieux_grimoire_1.webp",
       "/MonVieuxGrimoire/mon_vieux_grimoire_2.webp",
       "/MonVieuxGrimoire/mon_vieux_grimoire_3.webp"
     ]
@@ -54,12 +54,12 @@
     "dateLivraison": "Février 2025",
     "github": "https://github.com/Emy2024/OCR_projet3",
     "live": "xxxxxxxxxxx",
-    "coverHome": "/SophieBluel/sophie_bluel_1.webp",
-    "coverRealisations": "/SophieBluel/sophie_bluelCover.webp",
+    "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluel_1.webp",
+    "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluelCover.webp",
     "images": [
-      "/SophieBluel/sophie_bluel_1.webp",
-      "/SophieBluel/sophie_bluel_2.webp",
-      "/SophieBluel/sophie_bluel_3.webp"
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluel_1.webp",
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluel_2.webp",
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluel_3.webp"
     ]
   },
   {
@@ -77,12 +77,12 @@
     "dateLivraison": "Janvier 2025",
     "github": "https://github.com/Emy2024/OCR_projet4/",
     "live": "https://emy2024.github.io/OCR_projet4/",
-    "coverHome": "/NinaCarducci/nina_carducci_1.webp",
-    "coverRealisations": "/NinaCarducci/nina_carducciCover.webp",
+    "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_1.webp",
+    "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducciCover.webp",
     "images": [
-      "/NinaCarducci/nina_carducci_1.webp",
-      "/NinaCarducci/nina_carducci_2.webp",
-      "/NinaCarducci/nina_carducci_3.webp"
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_1.webp",
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_2.webp",
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_3.webp"
     ]
   }
 ]

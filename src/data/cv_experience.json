@@ -7,7 +7,7 @@
     "entreprise": "Alstom Grid T&D",
     "web": "https://www.alstom.com/fr",
     "lieu": "Stafford, Royaume-Uni",
-    "src": "/ExperiencePro/alstom.webp"
+    "src": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/ExperiencePro/alstom.webp"
   },
 
   {
@@ -18,7 +18,7 @@
     "entreprise": "Roland Berger Strategy Consultants",
     "web": "https://www.rolandberger.com/fr/Locations/France/News/",
     "lieu": "Paris, France",
-    "src": "/ExperiencePro/rolandBerger.webp"
+    "src": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/ExperiencePro/rolandBerger.webp"
   },
 
   {
@@ -29,7 +29,7 @@
     "entreprise": "International Confederation of European Beet\nGrowers (CIBE)",
     "web": "https://www.cibe-europe.eu/",
     "lieu": "Bruxelles, Belgique",
-    "src": "/ExperiencePro/cibe.webp"
+    "src": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/ExperiencePro/cibe.webp"
   },
 
   {
@@ -40,7 +40,7 @@
     "entreprise": "Syndicat Mixte d’Aménagement des Rivières du Val\nd’Ariège",
     "web": "https://www.symarvalariege.fr/",
     "lieu": "Arignac, Ariège",
-    "src": "/ExperiencePro/symar.webp"
+    "src": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/ExperiencePro/symar.webp"
   },
 
   {
@@ -51,7 +51,7 @@
     "entreprise": "Agence de Développement Touristique Ariège Pyrénées",
     "web": "https://www.ariegepyrenees.com/",
     "lieu": "Foix, Ariège",
-    "src": "/ExperiencePro/adt.webp"
+    "src": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/ExperiencePro/adt.webp"
   }
 
 ]
