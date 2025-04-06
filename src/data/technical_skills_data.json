@@ -1,66 +1,66 @@
 [
   {
     "Text": "HTML 5",
-    "Image": "/emmanuelle-rey/html5.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/html5.svg"
   },
   {
     "Text": "CSS",
-    "Image": "/css3.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/css3.svg"
   },
   {
     "Text": "SASS",
-    "Image": "/sass.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/sass.svg"
   },
   {
     "Text": "JavaScript",
-    "Image": "/javascript.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/javascript.svg"
   },
   {
     "Text": "React.js",
-    "Image": "/react.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/react.svg"
   },
   {
-    "Text": "Node.js",
+    "Text": "https://emy2024.github.io/emmanuelle-rey/node-js.svg",
     "Image": "/node-js.svg"
   },
   {
     "Text": "ApexChart / Chart.js",
-    "Image": "/chartJSapexchart.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/chartJSapexchart.svg"
   },
     {
     "Text": "Leaflet.js",
-    "Image": "/Leaflet.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/Leaflet.svg"
   },
   {
     "Text": "Bootstrap",
-    "Image": "/bootstrap.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/bootstrap.svg"
   },
   {
     "Text": "Wordpress",
-    "Image": "/wordpress.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/wordpress.svg"
   },
   {
     "Text": "Git / Github",
-    "Image": "/github.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/github.svg"
   },
   {
     "Text": "Illustrator",
-    "Image": "/illustrator.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/illustrator.svg"
   },
   {
     "Text": "InDesign",
-    "Image": "/indesign.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/indesign.svg"
   },
   {
     "Text": "Photoshop",
-    "Image": "/photoshop.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/photoshop.svg"
   },
   {
     "Text": "Premiere Pro",
-    "Image": "/premiere.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/premiere.svg"
   },
   {
     "Text": "SEO",
-    "Image": "/seo.svg"
+    "Image": "https://emy2024.github.io/emmanuelle-rey/seo.svg"
   }
 ]
