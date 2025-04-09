@@ -15,7 +15,7 @@ function DetailRealisation(props){
           <div className="detailRea__description">{props.mission}</div>
       </div>
       <div className="detailRea__ligne">
-          <div className="detailRea__subtitle">Outils / technologies</div>
+          <div className="detailRea__subtitle">Compétences développées</div>
           <div className="detailRea__table">
             {Array.isArray(props.technologie) ? 
               props.technologie.map((item, index) => {

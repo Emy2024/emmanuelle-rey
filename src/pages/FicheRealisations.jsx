@@ -33,13 +33,13 @@ function FicheRealisations(){
                                 name="Code Github"
                             />
                         ))}
-                        {dataRealisations.map((element, index) => (
+{/*                         {dataRealisations.map((element, index) => (
                             <Button
                                 key={index}
                                 link={element.live}
                                 name="Voir le projet"
                             />
-                        ))}
+                        ))} */}
                     </div>
                 </div>
             
@@ -76,21 +76,21 @@ function FicheRealisations(){
                     <h2 className="ficheRea__title">Consultez les autres projets</h2>
                     <div className="ficheRea__autresProjetsContainer">
                     <ul className="ficheRea__ul">
-                    {data.map((realisation) => {
-                        return(
-                        <li className="ficheRea__li" key={realisation.id}>
-                            <Link className="realisations__cardsLink" to={`/realisations/${realisation.id}`}>
-                            <Card 
-                                title={realisation.nomProjet} 
-                                date={realisation.dateLivraison}
-                                img={realisation.coverHome}
-                                arrayTags={realisation.technologie}
-                            />
-                            </Link>
-                        </li>
-                        )
-                    })}
-            </ul>
+                        {data.map((realisation) => {
+                            return(
+                            <li className="ficheRea__li" key={realisation.id}>
+                                <Link className="realisations__cardsLink" to={`/realisations/${realisation.id}`}>
+                                <Card 
+                                    title={realisation.nomProjet} 
+                                    date={realisation.dateLivraison}
+                                    img={realisation.coverHome}
+                                    arrayTags={realisation.technologie}
+                                />
+                                </Link>
+                            </li>
+                            )
+                        })}
+                    </ul>
                     
                     </div>
                 </div>
