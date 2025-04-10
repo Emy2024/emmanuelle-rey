@@ -3,7 +3,7 @@
     "id": "1",
     "nomProjet": "KASA",
     "concept": "KASA est un site web de location d'appartements entre particuliers.",
-    "mission": "Ce projet responsive a été développé de zéro en suivant les maquettes Figma d'un designer. L'objectif est de maîtriser les bases de REACT. De nombreuses problématiques ont été rencontrées comme la structuration modulaire du projet, la création de liens entre différentes pages, la gestion des états et des propriétés de composants ou encore l'utilisation du SCSS. J'ai pu gagner en compétences concernant la création de composants jsx, REACT rooters, les hooks (useStates, useParams, NavLink) et la logique SASS.",
+    "mission": "Ce projet responsive a été développé de zéro en suivant les maquettes Figma d'un designer. L'objectif est de maîtriser les bases de REACT et la logique de SASS. Deux problématiques principales ont été rencontrées : la réalisation du slideshow et le système d'étoiles dans les pages dédiées aux logements. Concernant le slideshow, ont été mis en place des fonctions d'incrémentation et de décrémentation avec gestion d'états (useStates). Le système d'étoiles a, quant à lui, été créé à partir d'un tableau vide de 5 éléments, dans lequel une fonction ternaire permet de disposer d'étoiles colorées ou grisées.",
     "mission_court":"Ce projet a été développé de zéro afin de maîtriser les bases de REACT.",
     "technologie": [
       "REACT 19.0.0",
@@ -24,7 +24,7 @@
     "id": "2",
     "nomProjet": "MON VIEUX GRIMOIRE",
     "concept": "Mon Vieux Grimoire est une petite chaîne de librairies dont l'objectif est de lancer un site de référencement et de notation de livres.",
-    "mission": "Le front-end du site est réalisé en React. L'objectif de ce projet est d'élaborer le back-end du site avec la connexion à l'API RESTfull. Le projet possède un système d'authentification ainsi qu'une gestion des fichiers utilisateurs afin de publier, supprimer ou modifier des livres. Il est en outre conforme aux bonnes prratiques du Green Code. La problématique principale rencontrée est liée aux Controllers et à leur personnalisation. Après plusieurs recherches et avec l'aide de mon Mentor, je suis parvenue à écrire le code JavaScript côté serveur.",
+    "mission": "Le front-end du site est réalisé en React. L'objectif de ce projet est d'élaborer le back-end du site avec la connexion à l'API RESTfull. Le projet possède un système d'authentification ainsi qu'une gestion des fichiers utilisateurs afin de publier, supprimer ou modifier des livres. Il est en outre conforme aux bonnes pratiques du Green Code. La problématique principale rencontrée est liée aux Controllers et à leur personnalisation. Après plusieurs recherches et avec l'aide de mon Mentor, je suis parvenue à écrire le code JavaScript côté serveur.",
     "mission_court": "L'objectif de ce projet a été d'élaborer le back-end du site avec la connexion à l'API RESTfull.",
     "technologie": [
       "MongoDB", 
@@ -45,7 +45,7 @@
     "id": "3",
     "nomProjet": "SOPHIE BLUEL ARCHITECTE",
     "concept": "Sophie Bluel est architecte d’intérieur : son site est une vitrine auprès de ses clients et potentiels clients.",
-    "mission": "A partir du backend pré-existant, ce projet a pour objectif l'élaboration du front-end en utilisant du JavaScript vanilla. L'idée est de pouvoir récupérer dynamiquement les travaux via une API. L'architecte doit également être en mesure de se connecter sur le site en mode Administrateur afin de pouvoir en ajouter ou en supprimer. De nombreuses problématiques ont été rencontrées sur ce site, comme la création d'algorithmes pour récupérer des données depuis l'API Swagger ou encore l'ajout et la suppression de travaux. Afin de clarifier le code, et répondre à ces problématiques, il a été convenu de diviser le projet de manière modulaire afin d'obtenir des pages et des fonctions plus courtes et par conséquent plus simples (principe du Keep It Simple Stupid).",
+    "mission": "A partir du back-end pré-existant, ce projet a pour objectif l'élaboration du front-end en utilisant du JavaScript vanilla. L'idée est de pouvoir récupérer dynamiquement les travaux via une API. L'architecte doit également être en mesure de se connecter sur le site en mode Administrateur afin de pouvoir en ajouter ou en supprimer. La principale problématique rencontrée a été l'organisation même du code. Afin de clarifier le code, il a été convenu de diviser le projet de manière modulaire afin d'obtenir des pages et des fonctions plus courtes et par conséquent plus simples (principe du Keep It Simple Stupid).",
     "mission_court":"A partir du back-end pré-existant, ce projet avait pour objectif l'élaboration du front-end en JavaScript vanilla.",
     "technologie": [
       "JavaScript",
@@ -66,7 +66,7 @@
     "id": "4",
     "nomProjet": "NINA CARDUCCI PHOTOGRAPHE",
     "concept": "Nina Carducci est photographe et possède un portfolio en ligne avec de nombreuses photographies illustrant son travail.",
-    "mission": "A partir d'un site déjà existant, l'objectif est d'optimiser le site en termes de SEO (desktop uniquement) et en matière d'accessibilité. Ce projet a impliqué notamment la conversion des images en un format webP adapté, l'ajout de balises alternatives, l'ajout de méta data enrichies, l'ajout de liens CDN et la modification de certains contrastes. La principale problématique rencontrée a concerné le débugg du site (partie en jQuery). J'ai pu toutefois trouver les solutions du fait de la similarité du jQuery avec le JavaScript vanilla.",
+    "mission": "A partir d'un site déjà existant, l'objectif est d'optimiser le site en termes de SEO (desktop uniquement) et en matière d'accessibilité. Ce projet a impliqué notamment la conversion des images en un format WebP adapté, l'ajout de balises alternatives, l'ajout de méta data enrichies, l'ajout de liens CDN et la modification de certains contrastes. La principale problématique rencontrée a concerné le débug du site (partie en jQuery). J'ai pu toutefois trouver les solutions du fait de la similarité du jQuery avec le JavaScript vanilla.",
     "mission_court":  "A partir d'un site déjà existant, l'objectif a été d'optimiser le site en termes de SEO et d'accessibilité.",
     "technologie": [
       "HTML", 
