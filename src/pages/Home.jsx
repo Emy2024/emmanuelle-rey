@@ -52,7 +52,7 @@ function Home(){
       </div>
       <div className="enSavoirPlus">
       <Button 
-        link={"/a-propos"}
+        link="/a-propos"
         name="Consultez mon parcours"
       />
       </div>

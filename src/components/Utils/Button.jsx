@@ -7,7 +7,7 @@ function Button(props){
   return(
     <div className="btn__container">
     <div className="btn">
-      <Link className="btn__link" target="_blank" to={props.link}>{props.name}</Link> 
+      <Link className="btn__link" to={props.link}>{props.name}</Link> 
       <span className="btn__arrow">{arrow}</span>
     </div>
     </div>
