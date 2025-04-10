@@ -34,13 +34,12 @@
   z-index: -1;
   width: 81%;
     @include mixins.mobile {
-        width: 214%;
+        width: 238%;
         padding-left: 0;
         padding-right: 0;
         order:2;
         right: 0%;
-        top: 7%;
-        left: -37%;
+        bottom: 0%;
     }
 }
 

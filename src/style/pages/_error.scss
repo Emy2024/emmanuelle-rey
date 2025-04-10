@@ -1,4 +1,6 @@
 @use "../base/variables";
+@use "../base/mixins";
+
 .error{
   display: flex;
   flex-direction: column;
@@ -13,6 +15,10 @@
     width: 50%;
     margin: auto;
     background-color: white;
+    @include mixins.mobile {
+      width: 90%;
+     
+    }
   }
 
   &__title{
