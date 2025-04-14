@@ -5,6 +5,7 @@ import dataCV from "../data/cv_experience.json"
 import CardExperiencePro from "../components/Cards/CardExperiencePro"
 import Softskills from "../components/Utils/Softskills"
 import cvLogo from '../assets/cv_grey.svg'
+import cvPdf from '../assets/emmanuelle_rey_cv.pdf'
 import { Link } from "react-router-dom"
 
 function Apropos(){
@@ -66,9 +67,9 @@ function Apropos(){
                             </Link>
                         </div>
                         <div>
-                            <Link className="aPropos__cvParagraph" to={"https://emy2024.github.io/emmanuelle-rey/assets/emmanuelle_rey_cv-DCyX8srO.pdf"} target="_blank">
+                            <a href={cvPdf} className="aPropos__cvParagraph" target="_blank">
                                 <div>Télécharger le CV complet</div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 
