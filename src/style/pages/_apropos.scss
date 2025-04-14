@@ -49,9 +49,9 @@
     display: flex;
     position: absolute;
     top: 2%;
-    right: -29%;
+    right: -33%;
     z-index: -1;
-    width: 70%;
+    width: 73%;
     @include mixins.mobile {
      display: none;
     }
