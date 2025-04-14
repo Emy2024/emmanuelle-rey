@@ -3,9 +3,9 @@ import Picture from "../assets/emile_perron_unsplash.webp"
 import dataFormation from "../data/formation.json"
 import dataCV from "../data/cv_experience.json"
 import CardExperiencePro from "../components/Cards/CardExperiencePro"
-import Button from "../components/Utils/Button"
 import Softskills from "../components/Utils/Softskills"
-import cvPdf from '../assets/emmanuelle_rey_cv.pdf'
+import cvLogo from '../assets/cv_grey.svg'
+import { Link } from "react-router-dom"
 
 function Apropos(){
 
@@ -57,11 +57,22 @@ function Apropos(){
                 < Softskills />
             </div>
 
-            <div className="aPropos__telechargement">
-                <Button
-                    name="Télécharger le CV complet"
-                    link="https://emy2024.github.io/emmanuelle-rey/assets/emmanuelle_rey_cv-DCyX8srO.pdf" 
-                />
+            <div >
+                
+                    <div className="aPropos__cvContainer" >
+                        <div>
+                            <Link className="aPropos__telechargement" to={"https://emy2024.github.io/emmanuelle-rey/assets/emmanuelle_rey_cv-DCyX8srO.pdf"} target="_blank">
+                                <img className="aPropos__cv" src={cvLogo} alt="CV"/>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link className="aPropos__cvParagraph" to={"https://emy2024.github.io/emmanuelle-rey/assets/emmanuelle_rey_cv-DCyX8srO.pdf"} target="_blank">
+                                <div>Télécharger le CV complet</div>
+                            </Link>
+                        </div>
+                    </div>
+                
+                
             </div>
 
 
