@@ -11,7 +11,6 @@
     ],
     "dateLivraison": "Mars 2025",
     "github": "https://github.com/Emy2024/OCR_projet5/",
-    "live": "xxxxxxxxxxx",
     "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/Kasa/kasa1.webp",
     "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/Kasa/kasaCover.webp",
     "images": [
@@ -28,17 +27,17 @@
     "mission_court": "L'objectif de ce projet a été d'élaborer le back-end du site avec la connexion à l'API RESTfull.",
     "technologie": [
       "MongoDB", 
-      "Mongoose" 
+      "Mongoose",
+      "Dépendances utilisées : bcrypt, dot.env, express, express-mongo-sanitize, helmet, jsonwebtoken, mongoose-unique-validator, multer, sharp"  
     ],
     "dateLivraison": "Avril 2025",
     "github": "https://github.com/Emy2024/OCR_projet6/",
-    "live": "xxxxxxxxxxx",
     "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/MonVieuxGrimoire/mon_vieux_grimoire_1.webp",
     "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/MonVieuxGrimoire/mon_vieux_grimoire_cover.webp",
     "images": [
       "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/MonVieuxGrimoire/mon_vieux_grimoire_1.webp",
-      "/MonVieuxGrimoire/mon_vieux_grimoire_2.webp",
-      "/MonVieuxGrimoire/mon_vieux_grimoire_3.webp"
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/MonVieuxGrimoire/mon_vieux_grimoire_2.webp",
+      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/MonVieuxGrimoire/mon_vieux_grimoire_3.webp"
     ]
   },
   {
@@ -53,7 +52,6 @@
     ],
     "dateLivraison": "Février 2025",
     "github": "https://github.com/Emy2024/OCR_projet3",
-    "live": "xxxxxxxxxxx",
     "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluel_1.webp",
     "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluelCover.webp",
     "images": [
@@ -76,7 +74,6 @@
     ],
     "dateLivraison": "Janvier 2025",
     "github": "https://github.com/Emy2024/OCR_projet4/",
-    "live": "https://emy2024.github.io/OCR_projet4/",
     "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_1.webp",
     "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducciCover.webp",
     "images": [
