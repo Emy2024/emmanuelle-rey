@@ -23,12 +23,11 @@
     "id": "2",
     "nomProjet": "MON VIEUX GRIMOIRE",
     "concept": "Mon Vieux Grimoire est une petite chaîne de librairies dont l'objectif est de lancer un site de référencement et de notation de livres.",
-    "mission": "Le front-end du site est réalisé en React. L'objectif de ce projet est d'élaborer le back-end du site avec la connexion à l'API RESTfull. Le projet possède un système d'authentification ainsi qu'une gestion des fichiers utilisateurs afin de publier, supprimer ou modifier des livres. Il est en outre conforme aux bonnes pratiques du Green Code. La problématique principale rencontrée est liée aux Controllers et à leur personnalisation. Après plusieurs recherches et avec l'aide de mon Mentor, je suis parvenue à écrire le code JavaScript côté serveur.",
+    "mission": "Le front-end du site est réalisé en React. L'objectif de ce projet est d'élaborer le back-end du site avec la connexion à l'API RESTfull. Le projet possède un système d'authentification ainsi qu'une gestion des fichiers utilisateurs afin de publier, supprimer ou modifier des livres. Il est en outre conforme aux bonnes pratiques du Green Code. La problématique principale rencontrée est liée à la logique JavaScript côté serveur, qui diffère de la logique côté front-end. Après plusieurs recherches et grâce aux explications détaillées du Mentor, je suis parvenue à comprendre les mécanismes liés à la validation, au traitement, au stockage et la sécurisation des données. Plusieurs dépendances ont par ailleurs été utilisées dans le projet : bcrypt, dot.env, express, express-mongo-sanitize, helmet, jsonwebtoken, mongoose-unique-validator, multer, sharp.",
     "mission_court": "L'objectif de ce projet a été d'élaborer le back-end du site avec la connexion à l'API RESTfull.",
     "technologie": [
       "MongoDB", 
-      "Mongoose",
-      "Dépendances utilisées : bcrypt, dot.env, express, express-mongo-sanitize, helmet, jsonwebtoken, mongoose-unique-validator, multer, sharp"  
+      "Mongoose"
     ],
     "dateLivraison": "Avril 2025",
     "github": "https://github.com/Emy2024/OCR_projet6/",
