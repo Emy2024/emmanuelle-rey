@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')).render(
       <ScrollToTop /> 
         < Header />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/emmanuelle-rey" element={<Home />} />
             <Route path="/a-propos" element={<Apropos />} />
             <Route path="/realisations/:id" element={<Realisations />}></Route>
             <Route path="/mentions-legales" element={<MentionsLegales />}></Route>
