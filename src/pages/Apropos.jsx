@@ -60,7 +60,7 @@ function Apropos(){
             <div className="aPropos__telechargement">
                 <Button
                     name="Télécharger le CV complet"
-                    link={cvPdf} 
+                    link="https://emy2024.github.io/emmanuelle-rey/assets/emmanuelle_rey_cv-DCyX8srO.pdf" 
                 />
             </div>
 
