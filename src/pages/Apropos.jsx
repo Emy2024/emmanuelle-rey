@@ -6,7 +6,6 @@ import CardExperiencePro from "../components/Cards/CardExperiencePro"
 import Softskills from "../components/Utils/Softskills"
 import cvLogo from '../assets/cv_grey.svg'
 import cvPdf from '../assets/emmanuelle_rey_cv.pdf'
-import { Link } from "react-router-dom"
 
 function Apropos(){
 
