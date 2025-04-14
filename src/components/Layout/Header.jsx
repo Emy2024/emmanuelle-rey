@@ -19,7 +19,7 @@ function Header() {
       <div className='header__navigation'>
       <NavLink 
           className={getNavLinkClass}
-          to={"/"}
+          to={"/emmanuelle-rey"}
         > Accueil
         </NavLink>
         <NavLink 
