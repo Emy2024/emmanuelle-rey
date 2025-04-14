@@ -62,9 +62,9 @@ function Apropos(){
                 
                     <div className="aPropos__cvContainer" >
                         <div>
-                            <Link className="aPropos__telechargement" to={"https://emy2024.github.io/emmanuelle-rey/assets/emmanuelle_rey_cv-DCyX8srO.pdf"} target="_blank">
+                            <a href={cvPdf} className="aPropos__telechargement" target="_blank">
                                 <img className="aPropos__cv" src={cvLogo} alt="CV"/>
-                            </Link>
+                            </a>
                         </div>
                         <div>
                             <a href={cvPdf} className="aPropos__cvParagraph" target="_blank">
