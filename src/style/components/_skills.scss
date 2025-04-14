@@ -16,9 +16,9 @@
 .skills__left {
     display: flex;
     flex-direction: column;
-    width: 37%;
+    width: 27%;
     position: absolute;
-    left: -143px;
+    left: -56px;
     top: 0;
     z-index: 999;
     @include mixins.mobile {
