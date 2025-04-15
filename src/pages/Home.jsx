@@ -22,8 +22,8 @@ function Home(){
             <div className="mainContent__cover"></div>
               <img className="image" 
                 src={MainPictureDesktop} alt="Image représentant une femme qui tape sur son clavier d'ordinateur" 
-                srcSet={`${MainPictureMobile} 360w, ${MainPictureDesktop} 800w`}
-                sizes="(max-width: 1024px) 360px, 800px"
+                srcSet={`${MainPictureMobile} 360w, ${MainPictureMobile} 450w, ${MainPictureDesktop} 800w`}
+                sizes="(max-width: 1024px) 360px, 450px, 800px"
               />
             </div>
         </div>
