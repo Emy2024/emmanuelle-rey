@@ -1,5 +1,6 @@
 import { Link } from "react-router"
-import MainPicture from "../assets/christin-hume-unsplash.webp"
+import MainPictureDesktop from "../assets/christin-hume-unsplash.webp" 
+import MainPictureMobile from "../assets/christin-hume-unsplash-480.webp"
 import SocialMedia from "../components/SocialMedia/SocialMedia" 
 import Card from "../components/Cards/Card"
 import Skills from "../components/Utils/Skills"
@@ -17,11 +18,16 @@ function Home(){
             <h1 className="mainContent__h1">Développeuse web front-end</h1>
             <p className="mainContent__paragraph">Avec 10 ans d'expérience professionnelle dans la communication, je suis en reconversion professionnelle. Mon objectif ? Exploiter les dernières technologies du web pour faire "parler" les données issues de l'Open Data. <strong>Et si on travaillait ensemble ?</strong></p>
           </div>
-        </div>
           <div className="mainContent__image">
-          <div className="mainContent__cover"></div>
-            <img className="image" src={MainPicture} alt="" />
-          </div>
+            <div className="mainContent__cover"></div>
+              <img className="image" 
+                src={MainPictureDesktop} alt="Image représentant une femme qui tape sur son clavier d'ordinateur" 
+                srcSet={`${MainPictureMobile} 480w, ${MainPictureDesktop} 800w`}
+                sizes="(max-width: 1024px) 480px, 800px"
+              />
+            </div>
+        </div>
+
       </div>
       <div className="realisations">
           <h2 className="realisations__title">Réalisations à la une</h2>
