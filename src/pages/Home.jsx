@@ -20,29 +20,23 @@ function Home(){
           </div>
           <div className="mainContent__image">
             <div className="mainContent__cover"></div>
-{/*               <img className="image" 
-                srcSet={`${MainPictureMobile} 480w, ${MainPictureDesktop} 1024w`}
-                sizes="(max-width: 480px) 100vw, 1024px"
-                src={MainPictureDesktop}
-                alt="Image représentant une femme qui tape sur son clavier d'ordinateur"
-              /> */}
+              <picture className="image">
+                <source 
+                  srcSet={MainPictureMobile} 
+                  media="(max-width: 480px)" 
+                />
+                <source 
+                  srcSet={MainPictureDesktop} 
+                  media="(min-width: 481px)" 
+                />
+                <img 
+                  src={MainPictureDesktop}
+                  alt="Image représentant une femme qui tape sur son clavier d'ordinateur"
+                  className="image"
+                />
+              </picture>
 
-            <picture className="image">
-              <source 
-                srcSet={MainPictureMobile} 
-                media="(max-width: 480px)" 
-              />
-              <source 
-                srcSet={MainPictureDesktop} 
-                media="(min-width: 481px)" 
-              />
-              <img 
-                src={MainPictureDesktop}
-                alt="Image représentant une femme qui tape sur son clavier d'ordinateur"
-                className="image"
-              />
-            </picture>
-            
+
             </div>
         </div>
 
