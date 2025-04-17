@@ -11,8 +11,9 @@
     bottom: 4%;
     @include mixins.mobile {
         width: 60%;
-        right: 19%;
-        bottom: -23%;
+        right: 16%;
+        bottom: -32%;
+        margin-bottom: 15px;
     }
 }
 
