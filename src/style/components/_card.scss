@@ -26,14 +26,14 @@
     &:hover {
         cursor: pointer;   
         .cardContent{
-        transition: transform 200ms ease-in-out;
-        transform: scale(1.02);
+            transition: transform 200ms ease-in-out;
+            transform: scale(1.02);
         }
         .card__imageContainer{
             transition: transform 200ms ease-in-out;
             transform: scale(1.02);
         } 
-        .cardContent__arrow {
+        .card__arrow {
             &::before {
                 content: "Découvrir la page";
                 font-size: 8px;
