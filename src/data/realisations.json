@@ -44,7 +44,7 @@
     "nomProjet": "SOPHIE BLUEL ARCHITECTE",
     "concept": "Sophie Bluel est architecte d’intérieur : son site est une vitrine auprès de ses clients et potentiels clients.",
     "mission": "A partir du back-end pré-existant, ce projet a pour objectif l'élaboration du front-end en utilisant du JavaScript vanilla. L'idée est de pouvoir récupérer dynamiquement les travaux via une API. L'architecte doit également être en mesure de se connecter sur le site en mode Administrateur afin de pouvoir en ajouter ou en supprimer. La principale problématique rencontrée a été l'organisation même du code. Afin de clarifier le code, il a été convenu de diviser le projet de manière modulaire afin d'obtenir des pages et des fonctions plus courtes et par conséquent plus simples (principe du Keep It Simple Stupid).",
-    "mission_court":"A partir du back-end pré-existant, ce projet avait pour objectif l'élaboration du front-end en JavaScript vanilla.",
+    "mission_court":"Ce projet a pour objectif l'élaboration du front-end en JavaScript.",
     "technologie": [
       "JavaScript",
       "API Swagger"
