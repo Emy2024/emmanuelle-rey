@@ -105,7 +105,7 @@
 .message{
   display: flex;
   width: 100%;
-  margin: 15px 0px 15px 0px;
+  margin: 15px 0 5px 0;
   height: 55px;
   @include mixins.mobile {
     height: 120px;
@@ -123,3 +123,4 @@
   flex-direction: column;
   padding-top: 15px;
 }
+
