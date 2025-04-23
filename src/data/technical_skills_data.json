@@ -24,6 +24,14 @@
     "Image": "https://emy2024.github.io/emmanuelle-rey/node-js.svg"
   },
   {
+    "Text": "Express.js",
+    "Image": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/1254425d1b08aff4f5611e1b72aaddf4e9418803/public/express-js.svg"
+  },
+  {
+    "Text": "MongoDB",
+    "Image": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/1254425d1b08aff4f5611e1b72aaddf4e9418803/public/mongodb.svg"
+  },
+  {
     "Text": "ApexChart / Chart.js",
     "Image": "https://emy2024.github.io/emmanuelle-rey/chartJSapexchart.svg"
   },
@@ -36,12 +44,20 @@
     "Image": "https://emy2024.github.io/emmanuelle-rey/bootstrap.svg"
   },
   {
+    "Text": "Figma",
+    "Image": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/1254425d1b08aff4f5611e1b72aaddf4e9418803/public/figma.svg"
+  },
+  {
     "Text": "Wordpress",
     "Image": "https://emy2024.github.io/emmanuelle-rey/wordpress.svg"
   },
   {
     "Text": "Git / Github",
     "Image": "https://emy2024.github.io/emmanuelle-rey/github.svg"
+  },
+  {
+    "Text": "VSCode / Cursor",
+    "Image": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/1254425d1b08aff4f5611e1b72aaddf4e9418803/public/vscode.svg"
   },
   {
     "Text": "Illustrator",
