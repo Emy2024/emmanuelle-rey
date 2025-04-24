@@ -9,10 +9,13 @@
     position: absolute;
     right: 34%;
     bottom: 4%;
+    @include mixins.tablet{
+        width: 32%;
+    }
     @include mixins.mobile {
         width: 60%;
         right: 16%;
-        bottom: -23%;
+        bottom: -34%;
         margin-bottom: 15px;
     }
 }

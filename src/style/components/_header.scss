@@ -13,6 +13,9 @@
   top: 0;
   z-index: 200;
   transition: 0.4s;
+  @include mixins.tablet{
+    padding: 15px;
+  }
   @include mixins.mobile {
     flex-direction: column;
     padding: 10px;
@@ -72,6 +75,9 @@
     width: 25%;
     text-align: center;
     border-bottom: 3px solid variables.$primary-color;
+    @include mixins.tablet{
+      padding: 15px 0px 10px 0px;
+    }
     @include mixins.mobile {
       padding: 15px 5px 15px 5px;
     }
@@ -85,6 +91,9 @@
     width: 25%;
     text-align: center;
     border-bottom: 3px solid rgba(255, 255, 255, 0);
+    @include mixins.tablet{
+      padding: 15px 0px 10px 0px;
+    }
     @include mixins.mobile {
       padding: 15px 5px 15px 5px;
       border-bottom: 3px solid rgba(255, 255, 255, 0);
