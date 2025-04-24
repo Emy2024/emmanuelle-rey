@@ -8,7 +8,7 @@
     width: 100%;
     @include mixins.mobile {
         padding: 0;
-        height: 50vh;
+        height: 61vh;
     }
 }
 
@@ -20,6 +20,10 @@
     width: 100%;
     height: 80vh;
     align-items: center;
+    @include mixins.tablet{
+        padding-left: 15px;
+        height: 60vh;
+    }
     @include mixins.mobile {
         padding-left: 15px;
         height: 333px;
@@ -33,6 +37,13 @@
   right: -29%;
   z-index: -1;
   width: 81%;
+    @include mixins.tablet{
+        width: 100%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 700px;
+    }
     @include mixins.mobile {
         width: 100%;
         padding-left: 0;
@@ -40,21 +51,23 @@
         order: 2;
         right: 0%;
         bottom: 0%;
-        height: 415px;
+        height: 459px;
     }
 }
 
 .image{
     width: 80%;   
+    @include mixins.tablet{
+        width: 100%;
+        height: 700px;
+    }
     @include mixins.mobile {
-       width: 100%;
-       height: 415px;
+        height: 459px;
     }
 }
 
 .mainContent__cover{
     position: absolute;
-    //border-top-right-radius: 15px;
     top: 0;
     left: 0;
     right: 0;
@@ -63,7 +76,7 @@
 }
 
 .mainContent__h1{
-    @include mixins.mobile {
+    @include mixins.tablet {
         color: white;
     }
 }
@@ -71,8 +84,10 @@
 .mainContent__paragraph{
     line-height: 30px;
     margin-right: 10px;
-    @include mixins.mobile {
+    @include mixins.tablet {
         color: white;
+    }
+    @include mixins.mobile {
         font-size: 15px;
         line-height: 25px;
     }
@@ -80,6 +95,9 @@
 
 .mainContent__text{
     width: 40%;
+    @include mixins.tablet{
+        width: 91%;
+    }
     @include mixins.mobile {
         width: 95%;
         order:1;
@@ -90,6 +108,9 @@
     background-color: variables.$secondary-color;
     height: auto;
     padding: 15px 120px 35px 120px;
+    @include mixins.tablet{
+        padding: 15px 15px 15px 15px;
+    }
     @include mixins.mobile {
         padding: 10px 10px 25px 10px;
     }
@@ -108,6 +129,9 @@
     margin-top: 21px;
     width: 100%;
     height: auto;
+    @include mixins.tablet{
+        margin-top: 0;
+    }
     @include mixins.mobile{
         margin-top: 19px;
     }
@@ -126,10 +150,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 100%;
-    @include mixins.mobile {
+    @include mixins.tablet{
+        grid-template-columns: 0;
         display: flex;
         flex-direction: column;
     }
+
 }
 
 li:first-child {
@@ -167,7 +193,11 @@ li:nth-child(4n) {
     justify-content: center;
     align-items: center;
     display: flex;
+    @include mixins.tablet {
+        height: 85px;
+    }
     @include mixins.mobile {
-        padding: 10px 10px 25px 10px;
+        padding: 0px;
+        height: 110px;
     }
 }

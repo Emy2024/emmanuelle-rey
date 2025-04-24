@@ -7,6 +7,10 @@
   margin: auto;
   width: 100%;
   height: auto;
+  @include mixins.tablet {
+    width: 95%;
+    padding: 10px 15px 25px 15px;
+  }
   @include mixins.mobile {
     padding: 10px 10px 25px 10px;
     width: 95%;
@@ -51,6 +55,9 @@
   margin-top: 15px;
   position: relative;
   overflow-y: hidden;
+  @include mixins.tablet{
+    height: 66vh;
+  }
   @include mixins.mobile {
     flex-direction: column;
     height: 545px;
@@ -65,7 +72,6 @@
   position: absolute;
   top: 0;
   bottom: 0;
-
   @include mixins.mobile {
     width: 100%;
   }

@@ -16,8 +16,12 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    @include mixins.tablet {
+      padding: 5px 15px 5px 15px;
+     }
     @include mixins.mobile {
      text-align: center;
+     padding: 0;
     }
 
   }
@@ -74,9 +78,13 @@
     padding: 15px 15px 15px 113px;
     position: relative;
     margin-top: 17px;
+    @include mixins.tablet {
+      width: 100%;
+      padding: 15px 15px 15px 15px;
+    }
+
     @include mixins.mobile {
       padding: 10px;
-      width: 100%;
       margin-top: 0;
       margin-bottom: 15px;
     }
@@ -94,6 +102,10 @@
     height: auto;
     padding: 35px 120px 35px 120px;
 
+    @include mixins.tablet {
+      padding: 35px 15px 35px 15px;
+    }
+
     @include mixins.mobile {
       flex-wrap: wrap;
       padding-top: 15px;
@@ -110,6 +122,9 @@
   
   &__experienceProContainer{
     display: flex;
+    @include mixins.tablet{
+      flex-wrap: wrap
+    }
     @include mixins.mobile {
       flex-direction: column;
     }
@@ -173,5 +188,9 @@
       padding-top: 30px;
       text-align: left;
       padding: 35px 120px 5px 120px;
+      @include mixins.tablet {
+        padding: 35px 15px 5px 35px;
+      }
   }
+
 }
