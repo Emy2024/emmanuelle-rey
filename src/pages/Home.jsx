@@ -16,7 +16,7 @@ function Home(){
           <SocialMedia />
           <div className="mainContent__text">
             <h1 className="mainContent__h1">Développeuse web front-end</h1>
-            <p className="mainContent__paragraph">Avec 10 ans d'expérience professionnelle dans la communication, je suis en reconversion professionnelle. Mon objectif ? Exploiter les dernières technologies du web pour faire "parler" les données issues de l'Open Data. <strong>Et si on travaillait ensemble ?</strong></p>
+            <p className="mainContent__paragraph">Avec plus de 10 ans d'expérience professionnelle dans la communication en France et à l'étranger, je suis en transition professionnelle vers les métiers du développement web. Mon objectif ? Apporter mon expertise en communication, graphisme et web pour réaliser des sites web impactants et personnalisés. <strong>Et si on travaillait ensemble ?</strong></p>
           </div>
           <div className="mainContent__image">
             <div className="mainContent__cover"></div>
