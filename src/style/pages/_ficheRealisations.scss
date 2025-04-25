@@ -29,6 +29,9 @@
     text-transform: uppercase;
     padding: 35px 120px 0px 120px;
     position: relative !important;
+    @include mixins.tablet {
+      padding: 35px 15px 35px 15px;
+    }
     @include mixins.mobile {
       padding: 35px 15px 25px 15px;
     }
@@ -45,6 +48,9 @@
   position: absolute;
   top: 27%;
   right: 17%;
+  @include mixins.tablet {
+    right: 2%;
+  }
   @include mixins.mobile {
     display: flex;
     flex-direction: row;
@@ -60,6 +66,9 @@
   text-transform: uppercase;
   padding: 35px 120px 25px 120px;
   position: relative !important;
+  @include mixins.tablet {
+    padding: 35px 15px 25px 15px;
+  }
   @include mixins.mobile {
     padding: 25px 15px 25px 15px;
   }
@@ -78,6 +87,9 @@
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr; 
   padding: 0px 120px 45px 120px;
+  @include mixins.tablet {
+    padding: 0px 15px 45px 15px;
+  }
   @include mixins.mobile {
     padding: 0px 15px 35px 15px;
     display: flex;
@@ -96,6 +108,10 @@
   padding: 35px 120px 25px 120px;
   color: variables.$secondary-color;
   background-color: #e4edee;
+  @include mixins.tablet {
+    padding: 35px 15px 25px 15px;
+    flex-wrap: wrap;
+  }
   @include mixins.mobile {
     padding: 25px 15px 5px 15px;
 
@@ -118,9 +134,10 @@
   display: flex;
   gap: 11px;
   width: 100%;
-  @include mixins.mobile {
-      display: flex;
-      flex-direction: column;
+  @include mixins.tablet {
+    display: flex;
+    flex-direction: column;
   }
+
 }
 
