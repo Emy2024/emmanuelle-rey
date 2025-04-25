@@ -52,6 +52,10 @@
     "Image": "https://emy2024.github.io/emmanuelle-rey/wordpress.svg"
   },
   {
+    "Text": "SEO",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/seo.svg"
+  },
+  {
     "Text": "Git / Github",
     "Image": "https://emy2024.github.io/emmanuelle-rey/github.svg"
   },
@@ -74,9 +78,5 @@
   {
     "Text": "Premiere Pro",
     "Image": "https://emy2024.github.io/emmanuelle-rey/premiere.svg"
-  },
-  {
-    "Text": "SEO",
-    "Image": "https://emy2024.github.io/emmanuelle-rey/seo.svg"
   }
 ]
