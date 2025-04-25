@@ -7,9 +7,12 @@
   background-color: variables.$secondary-color-transparent;
   width: 60%;
   margin: 15px 0 35px 120px;
+  @include mixins.tablet{
+    width: 96%;
+    margin: 15px 15px 35px 15px;
+  }
   @include mixins.mobile {
     margin: 55px 5px 15px 5px;
-    width: 96%;
   }
 
   &__ligne{

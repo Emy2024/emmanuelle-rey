@@ -47,9 +47,11 @@
     margin-left: auto;
     align-items: center;
     width: 46%;
+    @include mixins.tablet{
+      width: 63%;
+    }
     @include mixins.mobile {
       justify-content: center;
-      width: 50%;
       font-size: medium;
       width: 91%;
       margin-left: 0;
